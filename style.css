@@ -1,0 +1,125 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #111;
+    color: white;
+}
+
+/* Header */
+header {
+    background: #222;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #4CAF50;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: url('GREEN.png') no-repeat center center/cover;
+}
+
+.hero h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #4CAF50;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Game List */
+.game-list {
+    text-align: center;
+    padding: 50px;
+}
+
+.games {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.game {
+    background: #222;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+}
+
+.game img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.game button {
+    margin-top: 10px;
+    padding: 10px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.game button:hover {
+    background: #45a049;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
